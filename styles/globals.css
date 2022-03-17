@@ -2,8 +2,9 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  background-color: var(--background);
 }
 
 a {
@@ -13,4 +14,11 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+:root {
+  --dark: #3b434e;
+  --light: #fff;
+  --primary: #7653fc;
+  --background: #e5e5e5;
 }
